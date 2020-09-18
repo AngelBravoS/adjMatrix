@@ -1,0 +1,14 @@
+Package: adjMatrix
+Title: Calculate an adjacency matrix from a distance data frame.
+Version: 0.0.1
+Authors@R: 
+    person(given = "Ángel",
+           family = "Bravo Sáenz",
+           role = c("aut", "cre"),
+           email = "angelbravo@posteo.net",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: With this package, you can obtain the adjacency matrix of the first two columns of a distance data frame or matrix. There are only two arguments, the data frame itself and a logical argument that select if the output is logical (option by default) or numeric (ones an zeros).
+License: GPLv2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
